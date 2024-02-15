@@ -1,0 +1,132 @@
+repo_name: stackshareio/suo
+report_id: 32c8e215fae708dfc074d55a267b074a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T18:29:36+00:00'
+requested_by: jeromedalbert
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/stackshareio/suo
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/stackshareio/suo
+  detection_source: Repo Metadata
+- name: Bundler
+  description: A consistent environment for tracking and installing  gems and versions
+  website_url: http://bundler.io
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/2988/4e77LXIo_400x400.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Lev Kokotov
+  last_updated_on: 2019-08-22 23:16:57.000000000 Z
+- name: Code Climate
+  description: Automated Ruby Code Review
+  website_url: https://codeclimate.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/305/KFgYaUkK.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-13 17:12:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/stackshareio/suo
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/.github/workflows/CI.yml
+  detection_source: ".github/workflows/CI.yml"
+  last_updated_by: Matt Larraz
+  last_updated_on: 2021-01-20 23:53:51.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 0.49.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-12 20:40:53.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-12 20:40:53.000000000 Z
+- name: Rake
+  description: A software task management and build automation tool
+  website_url: https://github.com/ruby/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Task Management
+  image_url: https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-12 20:40:53.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-13 17:12:26.000000000 Z
