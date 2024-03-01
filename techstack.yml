@@ -1,13 +1,26 @@
 repo_name: stackshareio/suo
-report_id: 5ae216fcbb96efde0d60932de045a5fc
+report_id: 52f9f0b63b9c652df4c0bdb3a137781d
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-16T00:20:09+00:00'
+timestamp: '2024-03-01T20:36:07+00:00'
 requested_by: jeromedalbert
 provider: github
 branch: master
-detected_tools_count: 10
+detected_tools_count: 16
 tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-14 05:20:44.000000000 Z
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -17,17 +30,6 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source_url: https://github.com/stackshareio/suo
-  detection_source: Repo Metadata
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
   detection_source_url: https://github.com/stackshareio/suo
   detection_source: Repo Metadata
 - name: Bundler
@@ -102,15 +104,53 @@ tools:
   detection_source: suo.gemspec
   last_updated_by: Nick Elser
   last_updated_on: 2015-04-12 20:40:53.000000000 Z
-- name: Rake
-  description: A software task management and build automation tool
-  website_url: https://github.com/ruby/rake
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-12 20:40:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/stackshareio/suo
+  detection_source: Repo Metadata
+- name: codeclimate-test-reporter
+  description: Collects test coverage data from your Ruby test suite and sends it
+    to Code Climate's hosted, automated code review service
+  package_url: https://rubygems.org/codeclimate-test-reporter
+  version: 0.4.7
   license: MIT
   open_source: true
   hosted_saas: false
-  category: Application Utilities
-  sub_category: Task Management
-  image_url: https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18852/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-13 17:12:26.000000000 Z
+- name: dalli
+  description: High performance memcached client for Ruby
+  package_url: https://rubygems.org/dalli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19097/default_a446ce2f074889d1160eee4b4a2fde34af7525e6.png
   detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
   detection_source: suo.gemspec
   last_updated_by: Nick Elser
@@ -130,3 +170,43 @@ tools:
   detection_source: suo.gemspec
   last_updated_by: Nick Elser
   last_updated_on: 2015-04-13 17:12:26.000000000 Z
+- name: msgpack
+  description: MessagePack is a binary-based efficient object serialization library
+  package_url: https://rubygems.org/msgpack
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19051/default_76e060fe9703f2b60ce4bc4f9e2633d27597740f.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-12 20:40:53.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: '13.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Matt Larraz
+  last_updated_on: 2021-01-20 23:53:51.000000000 Z
+- name: redis
+  description: A Ruby client that tries to match Redis' API one-to-one
+  package_url: https://rubygems.org/redis
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18860/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/stackshareio/suo/blob/master/suo.gemspec
+  detection_source: suo.gemspec
+  last_updated_by: Nick Elser
+  last_updated_on: 2015-04-14 05:28:42.000000000 Z
